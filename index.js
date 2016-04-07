@@ -6,12 +6,15 @@ var app = express();
 var path = require('path');
 app.use(express.static(path.join(__dirname, '/public')));
 
-//db requirements
+// db requirements
 var mongoose = require('mongoose');
+
+// using handlebars
+app.set('view engine', 'hbs');
 
 // index routes
 app.get("/", function(req, res){
-  res.send("hello world")
+  res.render('index.hbs')
 });
 
 // listening on port
