@@ -1,2 +1,8 @@
-# motivation
-boring motivational tracker for me to do what I need to do
+# motivation tool
+
+## ideas to combine:
+* don't break the chain calendar
+* daily checklist of categories to hit
+
+## technologies used:
+* probably MEAN stack?
