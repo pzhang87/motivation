@@ -12,10 +12,10 @@ var mongoose = require('mongoose');
 // using handlebars
 app.set('view engine', 'hbs');
 
-// index routes
-app.get("/", function(req, res){
-  res.render('index.hbs')
-});
+// index route (removed)
+// app.get("/", function(req, res){
+//   res.render('index.hbs')
+// });
 
 // listening on port
 var port = process.env.PORT || 3000;
